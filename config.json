@@ -1,0 +1,27 @@
+{
+    "xml_tags": {
+        "class": "Class",
+        "attribute": "Attribute",
+        "aggregation": "Aggregation"
+    },
+    "class_attributes": {
+        "name": "name",
+        "is_root": "isRoot",
+        "documentation": "documentation"
+    },
+    "attribute_attributes": {
+        "name": "name",
+        "type": "type"
+    },
+    "aggregation_attributes": {
+        "source": "source",
+        "target": "target",
+        "multiplicity": "sourceMultiplicity",
+        "separator": ".."
+    },
+    "paths_file_save": {
+        "xml_path": "out/config.xml",
+        "json_path": "out/meta.json"
+    },
+    "path_file_input": "test_input.xml"
+}
